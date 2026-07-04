@@ -14,7 +14,7 @@ import { ToastContainer, Bounce } from "react-toastify";
 const App = () => {
   return (
     <>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <ToastContainer
           position="top-right"
           autoClose={1500}
