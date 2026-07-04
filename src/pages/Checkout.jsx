@@ -43,7 +43,7 @@ const Checkout = () => {
     }
 
     const options = {
-      key: "rzp_test_YOUR_KEY_HERE", // Replace with your actual Test Key ID
+      key: "rzp_live_T9M1hJyBpG3gi6", // Live Key ID
       amount: Math.round(cartTotal * 100), // amount in paise
       currency: "INR",
       name: "Shopping Cart",
