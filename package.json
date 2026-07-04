@@ -1,6 +1,6 @@
 {
   "name": "shopping-cart-deployment",
   "scripts": {
-    "build": "cd \"Project/vite-project\" && npm install && npm run build"
+    "build": "cd \"Project/vite-project\" && npm install && npm run build && cd ../.. && mkdir -p public && cp -r \"Project/vite-project/dist/\"* public/"
   }
 }
