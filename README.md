@@ -1,16 +1,41 @@
-# React + Vite
+# AK Store - React Shopping Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and dynamic e-commerce shopping cart built with React, Vite, and Tailwind CSS. 
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Browse products seamlessly
+- Add/Remove items from the cart
+- View cart totals and summary
+- Responsive design for mobile and desktop viewing
+- Real-time cart updates
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: React 19 + Vite
+- **Styling**: Tailwind CSS
+- **Routing**: React Router DOM
+- **Icons**: Lucide React
+- **Notifications**: React Toastify
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Deployment
+
+This project is deployed to GitHub Pages using the `gh-pages` package.
+To deploy a new version:
+```bash
+npm run deploy
+```
+
+Live Demo: [https://aman-kr-chy.github.io/Shopping-Cart-using-React-/](https://aman-kr-chy.github.io/Shopping-Cart-using-React-/)
